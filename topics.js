@@ -1,0 +1,1 @@
+export const RIDER_UPDATES = 'rider-updates';
