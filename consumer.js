@@ -19,6 +19,6 @@ const runUserConsumer = async () => {
     });
 };
 
-runUserConsumer().catch((err)=>{
+runUserConsumer().catch((err) => {
     console.error("Error while running UserConsumer", err);
 });

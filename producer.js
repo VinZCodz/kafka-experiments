@@ -20,7 +20,8 @@ runProducer()
         key: "location-update",
         value: JSON.stringify({
             name: "Vin'z",
-            location: "Majestic"
+            time: new Date(),
+            location: "Corporation"
         })
     }))
     .then(() => {
